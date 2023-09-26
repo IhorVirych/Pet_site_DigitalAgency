@@ -1,0 +1,842 @@
+body {
+  font-family: "Oswald", sans-serif;
+  color: #252525;
+  background-color: #fff;
+  margin: 2.6vw;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    font-size: 0;
+}
+
+header {
+  --gradient1start: -41.81%;
+  --gradient2start: -44.57%;
+  --gradient3start: 8.34%;
+  --gradient4start: -17.62%;
+
+  --gradient1end: 82.48%;
+  --gradient2end: 17.83%;
+  --gradient3end: 71.65%;
+  --gradient4end: 82.37%;
+
+  background-image: linear-gradient(178deg, #000 -41.81%, rgba(0, 0, 0, 0) 82.48%),
+    linear-gradient(2deg, #000 -44.57%, rgba(0, 0, 0, 0) 17.83%),
+    linear-gradient(88deg, #000 8.34%, rgba(0, 0, 0, 0) 71.65%),
+    linear-gradient(270deg, #000 -17.62%, rgba(0, 0, 0, 0) 82.37%), url(../images/herobackground.jpg);
+
+  /* background-image: linear-gradient(178deg, #000 -41.81%, rgba(0, 0, 0, 0) 82.48%),
+    linear-gradient(2deg, #000 -44.57%, rgba(0, 0, 0, 0) 17.83%),
+    linear-gradient(88deg, #000 8.34%, rgba(0, 0, 0, 0) 71.65%),
+    linear-gradient(270deg, #000 -17.62%, rgba(0, 0, 0, 0) 82.37%); */
+
+  /* background-image: linear-gradient(178deg, #000 var(--gradient1start), rgba(0, 0, 0, 0) var(--gradient1end)),
+    linear-gradient(2deg, #000 var(--gradient2start), rgba(0, 0, 0, 0) var(--gradient2end)),
+    linear-gradient(88deg, #000 var(--gradient3start), rgba(0, 0, 0, 0) var(--gradient3end)),
+    linear-gradient(270deg, #000 var(--gradient4start), rgba(0, 0, 0, 0) var(--gradient4end)); */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 47.6vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav {
+  width: 26.316vw;
+  margin-top: 4.16vw;
+  margin-right: 16.4vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 16.32vw;
+  margin-top: 4vw;
+}
+
+.logo a {
+  color: #fff;
+  font-size: 1.9vw;
+  font-weight: 700;
+  line-height: 1.6vw;
+  letter-spacing: 0.12vw;
+  text-decoration: none;
+}
+
+nav a {
+  color: #fff;
+  font-size: 0.7vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1vw;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: solid underline #4caf50 0.1vw;
+}
+
+.welcome-message h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 3.8vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.24vw;
+}
+
+.welcome-message p {
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 1.05vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.07vw;
+}
+
+.slide-controls {
+  display: flex;
+  width: 5.6vw;
+  height: 2.56vw;
+  gap: 0.47vw;
+  margin-bottom: 1.26vw;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.slide-controls a {
+  color: rgba(255, 255, 255, 0.44);
+  font-size: 0.95vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.06vw;
+  text-decoration: none;
+}
+
+.slide-controls a:hover {
+  color: #fff;
+  font-size: 1.9vw;
+  letter-spacing: 0.12vw;
+  text-decoration: solid underline #4caf50 0.1vw;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-section {
+  width: 62.21vw;
+  height: 29.4vw;
+  margin-top: 7.84vw;
+  background-image: url(../images/section1img.jpg),
+    linear-gradient(to right, rgba(76, 175, 80, 0.8), rgba(76, 175, 80, 0.8)), url(../images/section2img.jpg);
+  background-repeat: no-repeat;
+  background-size: 16.26vw 20.58vw, 16.26vw 22vw, 16.26vw 20.58vw;
+  background-position: top left 10.16vw, center, bottom right 13.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2,
+h3 {
+  margin: 0;
+}
+
+.section1-text1 h2 {
+  color: #333;
+  font-size: 1.9vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.12vw;
+  margin-top: 3.84vw;
+  padding: 0;
+}
+
+.section1-text1 h3 {
+  color: #504e4e;
+  font-family: "Open Sans";
+  font-size: 2.2vw;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.14vw;
+  padding: 0;
+  margin: 0;
+}
+
+.section1-wrap-up {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.section1-wrap-down {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 4.21vw;
+}
+
+.section1-text1 {
+  justify-content: flex-start;
+}
+
+.section1-text2 {
+  justify-content: flex-end;
+}
+
+.section1-text1 ul,
+.section1-text2 ul {
+  padding-inline-start: 2.68vw;
+  margin: 0;
+}
+
+.section1-text1 li,
+.section1-text2 li {
+  list-style-type: "\2014";
+  color: #5b5858;
+  font-family: "Open Sans";
+  font-size: 0.8vw;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.3vw;
+  letter-spacing: 0.06vw;
+}
+
+.services-section {
+  width: 100%;
+  background-color: rgba(251, 251, 251, 1);
+  margin-top: 6.05vw;
+  padding-top: 6.8vw;
+  display: flex;
+  justify-content: center;
+}
+
+.services-content-range {
+  height: 36.32vw;
+  width: 62.21vw;
+}
+
+.services-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 1.48vw;
+  margin-top: 4.47vw;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 19.6vw;
+  height: 13.68vw;
+  padding: 2.632vw 2.632vw 1.842vw 2.263vw;
+  background-color: #fff;
+}
+
+.service-card:hover {
+  border-bottom: 0.16vw solid #70bf73;
+}
+
+.service-card:hover .card-icon1 {
+  --grad-opacity: 0;
+}
+
+.service-card:hover .card-icon2 {
+  --grad-opacity: 0;
+}
+
+.service-card:hover .card-icon3 {
+  --grad-opacity: 0;
+}
+
+.service-card-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  color: #252525;
+  font-family: "Oswald";
+  font-size: 2.53vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.75;
+  letter-spacing: 0.16vw;
+}
+
+.service-card-title h3 {
+  color: #252525;
+  font-family: "Oswald";
+  font-size: 1.05vw;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.06vw;
+  text-transform: uppercase;
+}
+/* .service-card */
+p {
+  color: #777;
+  font-family: "Open Sans";
+  font-size: 0.632vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.32vw;
+  letter-spacing: 0.05vw;
+}
+
+.card-icon1 {
+  --grad-opacity: 0.82;
+  display: flex;
+  width: 2.632vw;
+  height: 2.632vw;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 0px #dbdbdb;
+  background-image: radial-gradient(rgba(255, 255, 255, var(--grad-opacity)), rgba(255, 255, 255, var(--grad-opacity))),
+    url(../images/graphic-design.svg);
+  background-repeat: no-repeat;
+  background-size: 1.316vw 1.316vw;
+  background-position: center;
+}
+
+.card-icon2 {
+  --grad-opacity: 0.82;
+  display: flex;
+  width: 2.632vw;
+  height: 2.632vw;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 0px #dbdbdb;
+  background-image: radial-gradient(rgba(255, 255, 255, var(--grad-opacity)), rgba(255, 255, 255, var(--grad-opacity))),
+    url(../images/pencil-case.svg);
+  background-repeat: no-repeat;
+  background-size: 1.316vw 1.316vw;
+  background-position: center;
+}
+
+.card-icon3 {
+  --grad-opacity: 0.82;
+  display: flex;
+  width: 2.632vw;
+  height: 2.632vw;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 0px #dbdbdb;
+  background-image: radial-gradient(rgba(255, 255, 255, var(--grad-opacity)), rgba(255, 255, 255, var(--grad-opacity))),
+    url(../images/coding.svg);
+  background-repeat: no-repeat;
+  background-size: 1.316vw 1.316vw;
+  background-position: center;
+}
+
+.service-card a {
+  color: #252525;
+  font-family: "Oswald";
+  font-size: 0.53vw;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.03vw;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.latest-work {
+  margin-top: 8.63vw;
+  width: 62.37vw;
+  height: 88.947vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.latest-work h2 {
+  margin-top: 2.4vw;
+}
+
+.categories {
+  width: 30.684vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.6vw;
+}
+
+.categories a {
+  color: #252525;
+  font-family: "Open Sans";
+  font-size: 0.684vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.044vw;
+  text-transform: uppercase;
+  text-decoration: none;
+  opacity: 0.3;
+}
+
+.categories a:hover {
+  opacity: 1;
+}
+
+.latest-work-first {
+  width: 30.684vw;
+  height: 31.368vw;
+  margin-top: 7.21vw;
+  background-image: url(../images/photography.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 24vw 23.4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.latest-work-first:hover .content-right a {
+  visibility: visible;
+}
+.latest-work-second {
+  width: 30.684vw;
+  height: 31.368vw;
+  margin-top: 8.5vw;
+  background-image: url(../images/kitten.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 24vw 23.4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.latest-work-second:hover .content-left a {
+  visibility: visible;
+}
+
+.title-left {
+  display: flex;
+  justify-content: end;
+}
+
+.title-right {
+  display: flex;
+  justify-content: start;
+}
+
+.title-left h3,
+.title-right h3 {
+  color: #252525;
+  font-family: "Oswald";
+  font-size: 2.526vw;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.162vw;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 17.68vw;
+  margin-left: 9.16vw;
+}
+
+.content-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 17.68vw;
+  margin-left: 6.579vw;
+}
+
+.content-left h4,
+.content-right h4 {
+  color: #252525;
+  font-family: "Open Sans";
+  font-size: 0.95vw;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.06vw;
+}
+
+.content-left p {
+  color: #c2c2c2;
+  margin: 0;
+}
+
+.content-right p {
+  color: #c2c2c2;
+  margin: 0;
+  text-align: right;
+}
+
+.content-left a,
+.content-right a {
+  color: #252525;
+  font-family: "Open Sans";
+  font-size: 0.68vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.04vw;
+  text-decoration: none;
+  text-transform: uppercase;
+  visibility: hidden;
+}
+
+.latest-work-forth {
+  width: 30.684vw;
+  height: 31.368vw;
+  margin-top: 7.21vw;
+  background-image: url(../images/keyboard.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 24vw 23.4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.latest-work-third {
+  width: 30.684vw;
+  height: 31.368vw;
+  margin-top: 7.21vw;
+  background-image: url(../images/macbook.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 24vw 23.4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.latest-work-forth:hover .content-left a {
+  visibility: visible;
+}
+
+.latest-work-third:hover .content-right a {
+  visibility: visible;
+}
+
+.view-more {
+  margin-top: 8.5vw;
+  text-align: end;
+  color: #252525;
+  font-family: "Oswald";
+  font-size: 0.68vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1vw;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.team-section {
+  width: 100%;
+  background-color: rgba(251, 251, 251, 1);
+  margin-top: 6.05vw;
+  padding-top: 6.8vw;
+  display: flex;
+  justify-content: center;
+}
+
+.team-content-range {
+  height: 44.474vw;
+  width: 62.368vw;
+}
+
+.team-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 1.48vw;
+  margin-top: 3.7vw;
+}
+
+.team-wrap a {
+  text-decoration: none;
+}
+
+.team-person1,
+.team-person2,
+.team-person3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 19.47vw;
+  height: 21.05vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.team-person1:hover .team-person-discr {
+  height: 8.158vw;
+}
+.team-person1:hover .hidden-discr {
+  visibility: visible;
+}
+
+.team-person2:hover .team-person-discr {
+  height: 8.158vw;
+}
+.team-person2:hover .hidden-discr {
+  visibility: visible;
+}
+
+.team-person3:hover .team-person-discr {
+  height: 8.158vw;
+}
+.team-person3:hover .hidden-discr {
+  visibility: visible;
+}
+
+.team-person-discr {
+  height: 2.895vw;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.team-person-discr p {
+  text-align: center;
+}
+
+.team-person-discr h3 {
+  color: #252525;
+  font-family: "Oswald";
+  font-size: 0.95vw;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 0.5;
+  letter-spacing: 0.06vw;
+  text-align: center;
+  margin-top: 1.28vw;
+}
+
+.hidden-discr {
+  visibility: hidden;
+}
+
+.team-person1 {
+  background-image: url(../images/tomjones.png);
+}
+
+.team-person2 {
+  background-image: url(../images/michaelfraup.png);
+}
+
+.team-person3 {
+  background-image: url(../images/timcahill.png);
+}
+
+.testimonial {
+    height: 14.211vw;
+    width: 62.368vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.text {
+    display: block;
+    width: 38.7vw;
+    text-align: center;
+    color: #373737;
+text-align: center;
+font-family: OpenSans;
+font-size: 0.74vw;
+font-style: normal;
+font-weight: 300;
+line-height: 1.6352vw;
+letter-spacing: 0.05vw;
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 61.68vw;
+}
+
+.testimonial img, arrows img {
+    width: 1.05vw;
+    width: 1.05vw;
+}
+
+.testimonial hr {
+    width: 26.895vw;
+    margin: 0;
+   
+}
+
+.author span {
+    color: #373737;
+text-align: center;
+font-family: "Oswald";
+font-size: 0.95vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.06vw;
+}
+
+.author {
+    color: #B8B8B8;
+font-family: "Oswald";
+font-size: 0.74vw;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.05vw;
+}
+
+.rating {
+    font-size: 1.053vw;
+    color: lightgray;
+    cursor: default;
+    margin: 0;
+}
+
+.prefooter {
+    width: 100%;
+    margin-top: 6.16vw;
+    display: flex;
+}
+
+.work-together, .contact-us {
+    width: 50%;
+    height: 15.8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-together h3, .contact-us h3 {
+    text-align: center;
+    font-family: Oswald;
+    font-size: 1.26vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.140vw;
+}
+
+.work-together img, .contact-us img {
+    width: 1.842vw;
+    height: 1.842vw;
+    margin-bottom: 1.21vw;
+}
+
+.work-together {
+    background-color: rgba(251, 251, 251, 1);
+}
+
+.work-together a, .work-together p {
+    background-color: rgba(251, 251, 251, 1);
+    color: #373737;
+    text-decoration: none;
+}
+
+.contact-us a, .contact-us p {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-us {
+    background-color:rgba(112, 189, 89, 1);
+}
+
+.work-together a img, .contact-us a img {
+    width: 0.474vw;
+    height: 0.474vw;
+    margin-top: 1.21vw;
+}
+
+footer {
+    width: 100%;
+    background-color: #2E2E2E;
+}
+
+.main-footer {
+    height: 17.9vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    margin-bottom: 1.526vw;
+}
+
+.footer-logo a {
+    color: #fff;
+    font-size: 1.9vw;
+    font-weight: 700;
+    line-height: 1.6vw;
+    letter-spacing: 0.12vw;
+    text-decoration: none;
+  }
+
+.main-footer p {
+  color: #FFF;
+  font-family: Oswald;
+  font-size: 0.684vw;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.044vw;
+  opacity: 0.5;
+  margin: 0.526vw;
+}
+
+.social a img {
+    width: 1.684vw;
+    height: 1.684vw;
+}
+
+.social {
+   display: flex;
+   gap: 1.105vw;
+   margin-top: 2.053vw;
+}
+
+.copyright {
+    width: 100%;
+    height: 3.05vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525;
+}
+
+.copyright p {
+    color: #FFF;
+font-family: Oswald;
+font-size: 0.684vw;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.044vw;
+opacity: 0.5;
+}
